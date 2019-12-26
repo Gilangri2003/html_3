@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(images/bg.jpg);
+}
+
+#wrapper {
+    background-image: url(images/bgcontainer.jpg);
+    background-size: contain;
+    width: 680px;
+    height: 1000px;
+    margin: auto;
+}
+
+#wrapper #menu {
+    background-image: url(images/bgcontent.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60px;
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+#wrapper #menu ul {
+    list-style: none;
+    padding-left: 100px;
+}
+
+#wrapper #menu ul li {
+    padding: 10px;
+    float: left;
+}
+
+#wrapper #menu ul li a {
+    text-decoration: none;
+    color: #000000 ;
+}
+
+#wrapper #topImage {
+    height: 150px;
+
+}
+
+#wrapper #topImage img {
+    padding-left: 100px;
+}
+
+#wrapper #content {
+    height: 740px;
+}
+
+#wrapper #content #contentSatu h1{
+    padding-top: 10px;
+    font-size: 24px;
+    padding-left: 50px;
+}
+
+#wrapper #content #contentSatu h1::first-letter{
+    font-size: 2.4em;
+    float: left;
+    display: block;
+
+}
+
+#wrapper #content #contentSatu h2 {
+    font-size: 15px;
+}
+
+#wrapper #content #contentSatu p{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+#wrapper #content #contentSatu p img{
+    float: left;
+    width: 250px;
+    margin-right: 10px;
+}
+
+#wrapper #content #divider{
+    height: 20px;
+    text-align: center;
+}
+
+#wrapper #content #contentDua h1{
+    padding-top: 10px;
+    font-size: 24px;
+    padding-left: 60px;
+}
+
+#wrapper #content #contentDua h1::first-letter{
+    font-size: 2.4em;
+    float: left;
+    display: block;
+}
+
+#wrapper #content #contentDua h2 {
+    font-size: 15px;
+}
+
+#wrapper #content #contentDua blockquote {
+
+    background: url(images/quote.gif);
+    background-repeat: no-repeat;
+    color: #555;
+    font: normal;
+    font-size: 1.4em;
+    font-family: sans-serif;
+    padding-left: 25px;
+    margin-left: 25px;
+}
+
+#wrapper #content #contentDua p {
+    padding-top: 10px;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 25px;
+
+}
+
+#wrapper #footer {
+    margin-left: 23px;
+    margin-right: 23px;
+    background-image: url(images/bgfooter.gif);
+    background-size: contain;
+    text-align: center;
+    height: 50px;
+}
